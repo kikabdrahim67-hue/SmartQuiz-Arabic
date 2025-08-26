@@ -1,0 +1,5 @@
+{
+  "name": "مولّد الاختبارات الذكي",
+  "description": "An interactive quiz game in Arabic that uses AI to generate an endless supply of questions across various categories. Users can customize the game settings and test their knowledge on dynamically created content.",
+  "requestFramePermissions": []
+}
