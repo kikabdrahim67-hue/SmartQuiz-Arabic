@@ -21,7 +21,7 @@ export const QUIZ_CATEGORIES = [
   { id: "cinema", name: "السينما", icon: FilmIcon },
   { id: "gaming", name: "الألعاب", icon: PuzzleIcon },
   { id: "space", name: "الفضاء", icon: RocketIcon },
-] as const;
+];
 
 
 export const GAME_MODES = [
@@ -31,14 +31,14 @@ export const GAME_MODES = [
   { id: "speedrun", name: "تحدي السرعة", description: "أجب على كل سؤال خلال 5 ثوانٍ.", icon: BoltIcon, color: "amber" },
   { id: "suddenDeath", name: "الموت المفاجئ", description: "خطأ واحد وتنتهي اللعبة.", icon: SkullIcon, color: "red" },
   { id: "survival", name: "البقاء", description: "لديك 3 محاولات فقط للبقاء.", icon: ShieldCheckIcon, color: "emerald" },
-] as const;
+];
 
 export const DIFFICULTY_LEVELS = [
     { id: "متغير", name: "متغير" },
     { id: "سهل", name: "سهل" },
     { id: "متوسط", name: "متوسط" },
     { id: "صعب", name: "صعب" },
-] as const;
+];
 
 
 export const ACHIEVEMENTS: { [key: string]: { id: string; name: string; description: string } } = {
