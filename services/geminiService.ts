@@ -64,7 +64,7 @@ export async function generateQuestions(category: string, count: number, difficu
     `;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         temperature: 0.5, // Lower temperature for more factual answers
@@ -181,7 +181,7 @@ export async function generateFunFact(question: Question): Promise<string> {
         `;
         
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-1.5-flash",
             contents: prompt,
             config: {
                 temperature: 0.8,
